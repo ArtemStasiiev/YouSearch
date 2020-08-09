@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouSearch</title>
+    <link rel="stylesheet" href="style.css">
+    <body>
+
+    <div class="container">
+        <header>
+            <div class="headerLeft">
+                <p class="logo">YouSearch</p>
+            </div>
+
+            <div class="headerRight">
+                <div class="searchCon">
+                    <form id="searchForm">
+                        <input type="text" id="searchText">
+                    </form>
+                    <button class="searchBtn">Search</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="movies"></div>
+
+        <div class="shadowCon">
+            <div class="singleMovieCon">
+                <div class="singleMovie"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

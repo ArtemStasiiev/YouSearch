@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #5cdb95;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+}
+.container{
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* position: absolute; */
+}
+.headerLeft{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #5cdb95;
+}
+.headerRight{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchCon{
+    width: 330px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5cdb95;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.searchBtn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #5cdb95;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.movies{
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.movies img{
+    width: 200px;
+    height: 300px;
+    margin: 25px 25px 10px 25px;
+}
+.movies button{
+    height: 30px; 
+    width: 100px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #5cdb95; 
+    color: white; 
+    cursor: pointer;
+}
+.movies div div{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 30px
+}
+.movies div p{
+    color: white; 
+    font-size: 14px; 
+    font-weight: bold
+}
+.movies div h5{
+    color: white;
+}
+.moviesCon{
+    padding-bottom: 25px
+}
+.shadowCon{
+    /* position: relative;   */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.singleMovieCon{
+    border: 10px solid #5cdb95;
+    background-color: #5cdb95;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 50px 0;
+}
+.singleMovie{
+    width: 1020px;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.photoCon{
+    width: 340px;
+    height: 580px;
+}
+.singlePhoto{
+    width: 340px;
+    height: 580px;
+}
+.plotCon{
+    width: 660px;
+    height: 580px;
+}
+.headingCon{
+    width: 660px;
+    height: 50px;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plot{
+    width: 660px;
+    margin-top: 10px;
+}
+.writtenByCon{
+    width: 660px;
+    margin-top: 10px;
+}
+.directedByCon{
+    width: 660px;
+    height: 20px;
+    margin-top: 10px;
+}
+.starringCon{
+    width: 660px;
+    height: 20px;
+    margin-top: 10px;
+}
+.boxOfficeCon{
+    width: 660px;
+    height: 20px;
+    margin-top: 10px;
+}
+.awardsCon, .genreCon, .runtimeCon{
+    width: 660px;
+    height: 20px;
+    margin-top: 10px;
+}
+.metascoreCon{
+    width: 660px;
+    height: 20px;
+    margin-top: 10px;
+}
+.btnCon{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+}
+.boldText{
+    font-weight: bold;
+}
+.normalText{
+    font-weight: normal;
+}
